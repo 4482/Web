@@ -24,7 +24,7 @@ table {border-collapse: collapse;}
 #header {
 	position: relative;
 	height: 75px;
-	background-color: rgba(255,255,255,0.2);
+	background-color: rgba(0,0,0,0.8);
 }
 
 #header div.container {position: relative; width: 1200px; height: 75px; margin: 0 auto; }
@@ -33,7 +33,7 @@ table {border-collapse: collapse;}
 #header div.container div.siteBrand a img {width: 100px;}
 #gnb {position: absolute; right: 0; }
 #gnb {position: absolute; bottom: 25px;}
-#gnb li {float: left; padding-right: 50px; color: black;}
+#gnb li {float: left; padding-right: 50px; color: white;}
 #gnb li a {font-size: 16px;}
 #gnb li a:hover {color: red;}
 
