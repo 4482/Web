@@ -3,11 +3,15 @@
 
 
 /* web font */
+
+
+
 /* Add Roboto*/
 @font-face {
 	font-family: 'Roboto', sans-serif;
 	font-family: 'Merriweather', serif;
-}body {font-family: Roboto}
+}body {font-family: 'Roboto', sans-serif;
+}
 /* reset */
 body {margin: 0;}
 h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, p, table {margin: 0; padding: 0;}
@@ -24,39 +28,58 @@ table {border-collapse: collapse;}
 #header {
 	position: relative;
 	height: 75px;
-	background-color: rgba(0,0,0,0.8);
+	
 }
 
+/*header, footer color */ 
+#header {background-color: #eeeeee; color: black;}
+#footer {background-color: #eeeeee; color: black;}
+
 #header div.container {position: relative; width: 1200px; height: 75px; margin: 0 auto; }
-#header div.container div.siteBrand {position: absolute; top: 10px;}
+#header div.container div.siteBrand {position: absolute; top: 4px;}
 #header div.container div.siteBrand a {text-indent: -9990px;}
 #header div.container div.siteBrand a img {width: 100px;}
 #gnb {position: absolute; right: 0; }
 #gnb {position: absolute; bottom: 25px;}
-#gnb li {float: left; padding-right: 50px; color: white;}
-#gnb li a {font-size: 16px;}
-#gnb li a:hover {color: red;}
+#gnb li {float: left; margin-right: 30px;  box-sizing: border-box; }
 
-#main-visual {height: 700px; position: relative; z-index: -1; top: -75px;}
-#main-visual div.main-image img {position: absolute; width: 1400px; height: 775px;}
+#gnb li a {font-size: 16px; padding: 0 10px 10px 10px;
+	border-bottom: 3px solid transparent;
+	/*-webkit-transition: 0.3s ease-in-out; 
+    -moz-transition: 0.3s ease-in-out;
+    -o-transform: 0.3s ease-in-out;*/
+	transition: 0.2s ease-out;
+}
+#gnb li a:hover {color: #eda82e;  border-bottom: 1.5px solid #eda82e; width: auto; padding-bottom: 5px;}
+
+
+
+#main-visual {height: 700px; position: relative; top: -75px;}
+#main-visual div.main-image img {position: absolute; width: 1400px; height: 775px; z-index: -1; }
 #main-visual div.main-title {position: absolute; top: 250px; left: 100px; }
 #main-visual div.main-title span.dates {display: inline-block; font-size: 24px; line-height: 50px; color: #ffffff;}
 #main-visual div.main-title span.title {font-size:50px; color: #ffffff;}
 #main-visual div.main-title em.subtitle {font-size: 72px; font-family: TimesNewRoman; font-weight: bold;	font-style: italic; line-height: 90px; margin-bottom: 100px; color: #ffffff;}
-#main-visual div.main-title span.more{
-	display: inline-block; 
+#main-visual div.main-title p.more{
+	display: block;
 	font-size: 14px; 
 	line-height: 24px; 
-	border: 1px solid; 
-	border-color: white; 
+	width: 85px;
+	text-align: center;
 	border-radius: 30px; 
 	box-sizing: border-box; 
-	padding: 5px 20px 6px 20px; 
+	padding: 5px 10px 6px 10px; 
 	margin-top: 10px; 
 	right: 0px; 
-	background-color: #123123; 
-	color: #ffffff;}
+	background-color: #e8513d; 
+	color: #ffffff;
+	transition: width 0.3s ease-in-out;
+	}
 
+#main-visual a.btn:hover p.more {
+	background-color: #1ca3ac; 
+	width: 100px;
+	color: #ffffff;  } 
 
 #main section.sponsors {width: 1200px; margin: 0 auto;
 	height: 200px; margin-top: 30px; display: flex;}
@@ -70,15 +93,24 @@ section.sponsors div.special p {font-size: 18px; line-height: 30px;}
 section.sponsors div.special ul {margin-top: 42px;  display: flex; align-items: center;}
 section.sponsors div.special ul li {margin-right: 90px;}
 
-#footer {width: 1400px; margin: 0 auto; height: 150px; background: black; color: white; position: relative;}
+#footer {width: 1400px; margin: 0 auto; height: 150px; position: relative;}
 #footer div.container {height: 150px;} 
 #footer div.siteBrand a {position: absolute; top: 20px;}
 #footer div.siteBrand a img {width: 100px;}
 
 #footer ul.footer-gnb {position: absolute; display: flex; top: 32px; left: 380px; font-size: 14px;}
+#footer ul.footer-gnb li a{
+	padding: 0 5px 10px 5px; 
+	transition: 0.2s ease-out; 
+	border-bottom: 1.5px solid transparent;}
+#footer ul.footer-gnb li:hover a{
+	color: #eda82e;  
+	border-bottom: 1.5px solid #eda82e; 
+	padding-bottom: 5px;;}
 #footer ul.footer-gnb li + li:before{content:"|"; margin: 20px;}
 
-#footer div.container div.footer-contact {right: 20px; position: absolute; top: 30px; font-size: 14px;}
+#footer div.container div.footer-contact {right: 20px; position: absolute; top: 30px; font-size: 14px; line-height: 1.5;}
+#footer div.footer-contact:hover .email {color: #eda82e;}
 #footer div.container p.copyright {position: absolute; bottom: 10px; font-size: 14px;}
 
 
@@ -101,18 +133,25 @@ h1.title {font-family: serif;	font-size: 32px; font-weight: bold; font-style: it
 
 
 /*Artists*/
-#artists div.years {position: relative; display: flex; }
-#artists .long {margin-bottom: 500px;}
-#artists .middle {margin-bottom: 350px;}
-#artists .short {margin-bottom: 280px;}
+#artists {}
+#artists div.years {
+	position: relative; 
+	margin-top: 10px; 
+	display:-webkit-flex; /* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;    /* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox;  /* TWEENER - IE 10 */
+	display: -webkit-flex; /* NEW - Chrome */
+	display: flex; 
+	}
+#artists .long {padding-bottom: 500px;}
+#artists .middle {padding-bottom: 350px;}
+#artists .short {padding-bottom: 280px;}
 #artists div.sector {position: absolute; top: 15px; }
 #artists div.sector p.year {font-size: 56px; line-height: 1; border-bottom: solid 3px #0288d1;
 width: 64px; padding-bottom: 8px;}
 #artists div.years div.sector span.subtitle {line-height: 2.5; font-style: italic; font-size: 18px; font-family: serif;}
 #artists div.name {position: absolute; left: 245px; height: 300px;}
 #artists div.name ul li{display: inline-block; }
-
-
 #artists div.name ul li + li:before{content:"-"; padding-right: 5px;}
 #artists div.name ul li a{ 
 	font-size: 16px; 
@@ -211,7 +250,7 @@ width: 64px; padding-bottom: 8px;}
 #exhibitions-years .slide-image ul.indicator li.on a {background-color: white; }
 
 
-.white {color:white;}
+
 
 
 #artists-personal div.contents {position: relative; display: flex;}
@@ -227,13 +266,21 @@ width: 64px; padding-bottom: 8px;}
 
 #artists-personal div.portrait {position: absolute; right: -100px; top: 128px;} 
 
-#contact div.contents {height: 570px;}
+#contact div.contents {height: 540px;}
 #contact div.contents img.main {position: absolute; position: absolute; width: 1400px; height: 775px; top: -60px; left: -100px; z-index: -1;}
 #contact div.sub-contents {text-align: center;}
-#contact  .subtitle p {font-size: 40px; font-family: serif; color: white; margin-top: 100px; margin-bottom: 40px;}
-#contact  .article {width: 700px; margin: 0 auto;}
+#contact  .subtitle p {font-size: 40px; font-family: serif; color: black; margin-top: 130px; margin-bottom: 40px;}
+#contact  .article {width: 800px; margin: 0 auto;}
 #contact  .article p {font-size: 16px; line-height: 2.0; margin-bottom: 70px;}
 #contact  .contact-line ul {display: flex; align-items: center; justify-content: center;}
-#contact  .contact-line a:hover img {opacity: 0.5}
-#contact  .contact-line li img {width: 60px; height: 60px;}
+
+#contact  .contact-line li img {width: 60px; 
+	height: 60px; 
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%) brightness(60%) ; 
+}
+    #contact  .contact-line a:hover img {
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+	filter}
 #contact  .contact-line li+li{margin-left: 70px;}

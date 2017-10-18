@@ -11,3 +11,4 @@ $('#exhibitions-years .slide-image ul.indicator li a').on('click', function(e) {
   $(this).parent().addClass('on');
   e.preventDefault();
 });
+
