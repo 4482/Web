@@ -32,7 +32,7 @@ table {border-collapse: collapse;}
 }
 
 /*header, footer color */ 
-#header {background-color: rgba(63, 63, 81, 0.2); color: white;}
+#header {background-color: rgba(63, 63, 81, 1); color: white;}
 #footer {background-color: #3F3F51; color: white;}
 
 #header div.container {position: relative; width: 1200px; height: 75px; margin: 0 auto; }
