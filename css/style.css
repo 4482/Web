@@ -32,8 +32,8 @@ table {border-collapse: collapse;}
 }
 
 /*header, footer color */ 
-#header {background-color: #1B1B25; color: white;}
-#footer {background-color: #1B1B25; color: white;}
+#header {background-color: rgba(63, 63, 81, 0.2); color: white;}
+#footer {background-color: #3F3F51; color: white;}
 
 #header div.container {position: relative; width: 1200px; height: 75px; margin: 0 auto; }
 #header div.container div.siteBrand {position: absolute; top: 4px;}
@@ -53,7 +53,7 @@ table {border-collapse: collapse;}
 #gnb li a:hover {color: #eda82e;  border-bottom: 1.5px solid #eda82e; width: auto; padding-bottom: 5px;}
 #gnb li a.on {color: #eda82e;  border-bottom: 1.5px solid #eda82e; width: auto; padding-bottom: 5px;}
 #main-visual {height: 700px; position: relative; top: -75px; z-index: 1;}
-#main-visual div.main-image img {position: absolute; width: 1400px; height: 775px; z-index: -10; opacity: 0.85;}
+#main-visual div.main-image img {position: absolute; width: 1400px; height: 775px; z-index: -10; opacity: 0.9;}
 #main-visual div.main-title {position: absolute; top: 250px; left: 100px; }
 #main-visual div.main-title span.dates {display: inline-block; font-size: 24px; line-height: 50px; color: #ffffff;}
 #main-visual div.main-title span.title {font-size:50px; color: #ffffff;}
