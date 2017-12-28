@@ -259,8 +259,13 @@ width: 64px; padding-bottom: 8px;}
 	line-height: 1.5;
 }
 #exhibitions-years .submissions li {
+<<<<<<< HEAD
 margin-bottom: 12px;}
 
+=======
+	margin-bottom: 12px;
+}
+>>>>>>> 30dfc30df9df25f83add2c3840e5be8d44599abd
 #exhibitions-years .submissions a {
 	text-decoration: underline; ;
 	color: #eda82e;
