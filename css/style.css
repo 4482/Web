@@ -53,11 +53,11 @@ table {border-collapse: collapse;}
 #gnb li a:hover {color: #eda82e;  border-bottom: 1.5px solid #eda82e; width: auto; padding-bottom: 5px;}
 #gnb li a.on {color: #eda82e;  border-bottom: 1.5px solid #eda82e; width: auto; padding-bottom: 5px;}
 #main-visual {height: 782px; position: relative; top: -0px; z-index: 1;}
-#main-visual div.main-image img {position: absolute; width: 1400px; height: 782px; z-index: -10; opacity: 0.9;}
+#main-visual div.main-image img {position: absolute; width: 1400px; height: 782px; z-index: -10; opacity: 1;}
 #main-visual div.main-title {position: absolute; top: 250px; left: 100px; }
-#main-visual div.main-title span.dates {display: inline-block; font-size: 24px; line-height: 50px; color: rgba(0,0,0,0.8);}
-#main-visual div.main-title span.title {font-size:50px; color: rgba(0,0,0,0.8);}
-#main-visual div.main-title em.subtitle {font-size: 72px; font-family: TimesNewRoman; font-weight: bold;	font-style: italic; line-height: 90px; margin-bottom: 100px; color: rgba(0,0,0,0.8);}
+#main-visual div.main-title span.dates {display: inline-block; font-size: 24px; line-height: 50px; color: rgba(255,255,255,1);}
+#main-visual div.main-title span.title {font-size:50px; color: rgba(255,255,255,1);}
+#main-visual div.main-title em.subtitle {font-size: 72px; font-family: TimesNewRoman; font-weight: bold;	font-style: italic; line-height: 90px; margin-bottom: 100px; color: rgba(255,255,255,1);}
 #main-visual div.main-title p.more{
 	display: block;
 	font-size: 14px; 
@@ -84,12 +84,12 @@ table {border-collapse: collapse;}
 
 section.sponsors div.title p {font-size: 18px; margin-bottom: 45px;}
 section.sponsors div.title ul {display: flex; align-items: center;}
-section.sponsors div.title ul li {margin-right: 90px;}
+section.sponsors div.title ul li {margin-right: 50px;}
 
-section.sponsors div.special {margin-left: 90px;}
+section.sponsors div.special {margin-left: 80px;}
 section.sponsors div.special p {font-size: 18px; line-height: 30px;}
 section.sponsors div.special ul {margin-top: 42px;  display: flex; align-items: center;}
-section.sponsors div.special ul li {margin-right: 90px;}
+section.sponsors div.special ul li {margin-right: 50px;}
 
 #footer {width: 1400px; margin: 0 auto; height: 150px; position: relative;}
 #footer div.container {height: 150px;} 
@@ -364,6 +364,9 @@ width: 64px; padding-bottom: 8px;}
 #exhibitions-years .article div span{display: inline-block; position: absolute;
 	 left: 120px; font-size: 16px; line-height: 20px; align-items: center;}
 #exhibitions-years .article div span ul {display: flex; align-items: center;}
+#exhibitions-years .article div span ul:first-chuld {
+	margin-bottom: 50px;
+}
 #exhibitions-years .article div span img {padding-right: 30px; }
 
 #exhibitions-years .submissions {
