@@ -84,13 +84,14 @@ table {border-collapse: collapse;}
 
 section.sponsors div.title p {font-size: 18px; margin-bottom: 45px;}
 section.sponsors div.title ul {display: flex; align-items: center;}
-section.sponsors div.title ul li {margin-right: 50px;}
+section.sponsors div.title ul li {margin-right: 60px;}
+section.sponsors div.title ul li img {width: 130%;}
 
-section.sponsors div.special {margin-left: 80px;}
+section.sponsors div.special {margin-left: 40px;}
 section.sponsors div.special p {font-size: 18px; line-height: 30px;}
 section.sponsors div.special ul {margin-top: 42px;  display: flex; align-items: center;}
-section.sponsors div.special ul li {margin-right: 50px;}
-
+section.sponsors div.special ul li {margin-right: 60px;}
+section.sponsors div.special ul li img {width: 130%;}
 #footer {width: 1400px; margin: 0 auto; height: 150px; position: relative;}
 #footer div.container {height: 150px;} 
 #footer div.siteBrand a {position: absolute; top: 20px;}
@@ -367,7 +368,11 @@ width: 64px; padding-bottom: 8px;}
 #exhibitions-years .article div span ul:first-chuld {
 	margin-bottom: 50px;
 }
-#exhibitions-years .article div span img {padding-right: 30px; }
+#exhibitions-years .article div span ul li {
+padding-right: 70px;
+}
+#exhibitions-years .article div span img {
+	width:120%;  }
 
 #exhibitions-years .submissions {
 	margin-top: 20px;
