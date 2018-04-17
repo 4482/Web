@@ -80,19 +80,27 @@ table {border-collapse: collapse;}
 	color: #ffffff;  } 
 
 #main section.sponsors {width: 1200px; margin: 0 auto;
-	height: 200px; margin-top: 30px; display: flex;}
+	height: 200px; margin-top: 30px; }
 
-section.sponsors div.title p {font-size: 18px; margin-bottom: 45px;}
+section.sponsors div.title p {font-size: 18px; margin-bottom: 20px;}
 section.sponsors div.title ul {display: flex; align-items: center;}
-section.sponsors div.title ul li {margin-right: 60px;}
-section.sponsors div.title ul li img {width: 130%;}
+section.sponsors div.title ul li {margin-right: 70px;}
+section.sponsors div.title ul li img {height: 45px;}
 
-section.sponsors div.special {margin-left: 40px;}
+.sponsors-03 { height: 80px!important; }
+.sponsors-04 { height: 60px!important;
+
+}
+.sponsors-08 {height: 45px!important;
+
+}
+.sponsors-09 {height: 25px!important;}
+section.sponsors div.special {margin-top: 40px;}
 section.sponsors div.special p {font-size: 18px; line-height: 30px;}
 section.sponsors div.special ul {margin-top: 42px;  display: flex; align-items: center;}
-section.sponsors div.special ul li {margin-right: 60px;}
-section.sponsors div.special ul li img {width: 130%;}
-#footer {width: 1400px; margin: 0 auto; height: 150px; position: relative;}
+section.sponsors div.special ul li {margin-right: 70px;}
+section.sponsors div.special ul li img {height: 35px;}
+#footer {width: 1400px; margin: 0 auto; margin-top: 150px; height: 150px; position: relative;}
 #footer div.container {height: 150px;} 
 #footer div.siteBrand a {position: absolute; top: 20px;}
 #footer div.siteBrand a img {width: 100px;}
