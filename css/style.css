@@ -373,15 +373,17 @@ width: 64px; padding-bottom: 8px;}
 #exhibitions-years .article div span{display: inline-block; position: absolute;
 	 left: 120px; font-size: 16px; line-height: 20px; align-items: center;}
 #exhibitions-years .article div span ul {display: flex; align-items: center;}
-#exhibitions-years .article div span ul:first-chuld {
-	margin-bottom: 50px;
+#exhibitions-years .article div span ul {
+	margin-bottom: 15px;
 }
 #exhibitions-years .article div span ul li {
 padding-right: 70px;
 }
 #exhibitions-years .article div span img {
-	width:120%;  }
-
+	height: 40px; }
+.spon-3, .spon-4 {
+	height: 60px!important;
+}
 #exhibitions-years .submissions {
 	margin-top: 20px;
 	line-height: 1.5;
