@@ -410,7 +410,8 @@ padding-right: 70px;
 #exhibitions-years .slide-image ul.indicator li a {border-radius: 50%; display: block; width: 8px; height: 8px; overflow: hidden; border: 2px solid rgba(255,255,255,0.6);
 	text-indent: -999px;}
 #exhibitions-years .slide-image ul.indicator li.on a {background-color: white; }
-
+#exhibitions-years .description {margin-top: 120px;}
+#exhibitions-years .paragraph {margin-top: 20px; line-height: 1.8;}
 
 
 
