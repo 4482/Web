@@ -284,7 +284,7 @@ width: 64px; padding-bottom: 8px;}
 /*Exhibition*/
 #exhibitions div.contents{position: relative; margin: 0 auto; height: 1000px; display: flex; margin-bottom: 100px; }
 #exhibitions div.main-image {position: relative; text-align: center; }
-#exhibitions img.new {padding-right: 100px; width: 574px; position: relative; vertical-align: middle; height: 1000px; overflow: hidden;}
+#exhibitions img.new {padding-right: 100px; width: 574px; position: relative; vertical-align: middle;}
 #exhibitions div.note {position: absolute; top: 200px; width: 550px; text-align: center; color: #ffffff;}
 #exhibitions div.note p {font-size: 32px; line-height: 2;}
 #exhibitions div.note em.title {font-size: 48px; font-family: serif; font-weight: bold; font-style: italic;}
@@ -349,7 +349,7 @@ width: 64px; padding-bottom: 8px;}
 #exhibitions-years .info {
 	font-size: 14px;
 	line-height: 1.5;
-	margin-bottom: 50px;
+	margin-bottom: 10px;
 
 }
 #exhibitions-years .info p {
@@ -361,8 +361,9 @@ width: 64px; padding-bottom: 8px;}
 	padding-bottom: 20px;
 }
 #exhibitions-years .info li {
-	list-style: circle;
+	list-style: disc;
 	margin-left: 30px;
+	margin-bottom: 1rem;
 }
 #exhibitions-years .info em{ 
 	padding-top: 40px;
@@ -411,7 +412,7 @@ padding-right: 70px;
 	text-indent: -999px;}
 #exhibitions-years .slide-image ul.indicator li.on a {background-color: white; }
 #exhibitions-years .description {margin-top: 120px;}
-#exhibitions-years .paragraph {margin-top: 20px; line-height: 1.8;}
+#exhibitions-years .paragraph {margin-top: 10px; line-height: 1.8;}
 
 
 
