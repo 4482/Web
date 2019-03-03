@@ -344,7 +344,15 @@ width: 64px; padding-bottom: 8px;}
 #exhibitions-years .contents a.exh-2018 img{margin-bottom: 100px;}
 
 #exhibitions-years .article {position: relative; width: 800px; left: 74px;}
-#exhibitions-years .article div {position: relative; padding-bottom: 40px;}
+
+#exhibitions-years .article div {
+	padding-bottom: 40px;
+}
+#exhibitions-years .article div.article__title {
+	display: flex;
+	width: 100%;
+	padding-bottom: 40px;}
+
 
 #exhibitions-years .info {
 	font-size: 14px;
@@ -366,7 +374,7 @@ width: 64px; padding-bottom: 8px;}
 	margin-bottom: 1rem;
 }
 #exhibitions-years .info em{ 
-	padding-top: 40px;
+	padding-top: 50px;
 
 }
 
