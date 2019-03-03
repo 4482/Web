@@ -355,8 +355,8 @@ width: 64px; padding-bottom: 8px;}
 
 
 #exhibitions-years .info {
-	font-size: 14px;
-	line-height: 1.5;
+	font-size: 16px;
+	line-height: 1.2;
 	margin-bottom: 10px;
 
 }
@@ -378,7 +378,7 @@ width: 64px; padding-bottom: 8px;}
 
 }
 
-#exhibitions-years .article div em{position: relative; display: inline-block; font-size: 20px; line-height: 20px; font-family: serif;}
+/*#exhibitions-years .article div em{position: relative; display: inline-block; font-size: 20px; line-height: 20px; font-family: serif;}*/
 #exhibitions-years .article div span{display: inline-block; position: absolute;
 	 left: 120px; font-size: 16px; line-height: 20px; align-items: center;}
 #exhibitions-years .article div span ul {display: flex; align-items: center;}
@@ -421,7 +421,8 @@ padding-right: 70px;
 #exhibitions-years .slide-image ul.indicator li.on a {background-color: white; }
 #exhibitions-years .description {margin-top: 120px;}
 #exhibitions-years .paragraph {margin-top: 10px; line-height: 1.8;}
-
+#exhibitions-years .paragraph em.em {font-family: inherit; font-size: 16px; font-weight: bold;}
+#exhibitions-years .paragraph em.italic {font-family: inherit; font-size: 16px; font-style: italic;}
 
 
 
