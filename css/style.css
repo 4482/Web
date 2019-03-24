@@ -150,6 +150,16 @@ h1.title {font-family: serif;	font-size: 32px; font-weight: bold; font-style: it
 	display: -webkit-flex; /* NEW - Chrome */
 	display: flex; 
 	}
+
+
+.artist-section {
+	font-family: 'Times New Roman', Times, serif;
+	
+	font-size: 20px;
+	margin-top: 60px;
+	margin-bottom: 20px;
+	display: block
+}	
 #artists .long {padding-bottom: 500px;}
 #artists .middle {padding-bottom: 350px;}
 #artists .short {padding-bottom: 280px;}
@@ -471,7 +481,7 @@ padding-right: 70px;
 #artists-personal .slide-image ul.image li:first-child {display: block;}
 #artists-personal .slide-image ul.image li img{max-height: 500px; width: auto;}
 
-#artists-personal .slide-image ul.indicator {position: absolute; text-align: center; bottom: 50px; left: 30px;}
+#artists-personal .slide-image ul.indicator {position: absolute;text-align: center;top: 20px;left: 30px;}
 #artists-personal .slide-image ul.indicator li {display: inline-block; margin: 0 2px; z-index: 100;}
 #artists-personal .slide-image ul.indicator li a {border-radius: 50%; display: block; width: 8px; height: 8px; overflow: hidden; border: 2px solid rgba(255,255,255,0.6);
 	text-indent: -999px;}
